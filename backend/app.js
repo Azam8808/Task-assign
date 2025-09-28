@@ -14,7 +14,7 @@ app.use(cors());
 const mongoUrl = process.env.MONGODB_URL;
 mongoose.connect(mongoUrl, err => {
   if (err) throw err;
-  console.log("Mongodb connected...");
+  console.log("Database connected successfully...");
 });
 
 app.use("/api/auth", authRoutes);

@@ -19,10 +19,10 @@ const Home = () => {
     <>
       <MainLayout>
         {!isLoggedIn ? (
-          <div className='bg-primary text-white h-[40vh] py-8 text-center'>
-            <h1 className='text-2xl'> Welcome to Task Manager App</h1>
+          <div className="bg-emerald-900 text-rose-100 h-[40vh] py-8 text-center">
+            <h1 className='text-2xl'> Basic Project management tool.. </h1>
             <Link to="/signup" className='mt-10 text-xl block space-x-2 hover:space-x-4'>
-              <span className='transition-[margin]'>Join now to manage your tasks</span>
+              <span className='transition-[margin]'>Join now create own project and task tracking</span>
               <span className='relative ml-4 text-base transition-[margin]'><i className="fa-solid fa-arrow-right"></i></span>
             </Link>
           </div>
