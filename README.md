@@ -1,9 +1,9 @@
 🚀 MERN Task Manager – Quick Setup Guide
-Clone the repo: git clone https://github.com/aayush301/MERN-task-manager
+Clone the repo: git clone https://github.com/Azam8808/Task-assign
 
 Install all dependencies: npm run install-all
 
-Go to backend folder and create a .env file as reference and add your own MongoDB URI and JWT secret.
+Go to backend folder and updaten.env file as reference and add your own MongoDB URI and JWT secret.
 
 Start the project: npm run dev
 
